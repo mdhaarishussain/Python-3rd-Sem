@@ -1,0 +1,11 @@
+a=int(input("Enter a: "));
+b=int(input("Enter b: "));
+print("[Before Swapping][using 3rd Variable]");
+print("a: ",a);
+print("b: ",b);
+c=a;
+a=b;
+b=c;
+print("[After Swapping][using 3rd Variable]");
+print("a: ",a);
+print("b: ",b);
